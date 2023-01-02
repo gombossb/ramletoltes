@@ -1,0 +1,29 @@
+# RAM Letöltés
+
+Unja már, hogy számítógépe lassú, sokat gondolkozik és nem tudja produktívan munkára, kikapcsolódásra használni? Ismerős érzés az, amikor legszívesebben kihajítaná számítógépét az ablakon /*(defenesztrálná)*/?
+Ne habozzon, töltsön le RAM-ot gyorsan, egyszerűen és teljesen ingyen, hogy gondjait megszüntesse! RAM-bó' sosem elég!
+
+`Letöltés gomb`
+
+## GY.I.K
+
+### Miért jó a több RAM?
+Vannak olyan alkalmazások, programok (például Google Chrome, Windows, ZFS), amiknek működésükhöz nagyon sok memóriára van szükségük. Ezek számára nagy segítséget nyújt a több memória, jobban és gyorsabban fognak futni, megszűnik az akadozás.
+
+### Honnan tudhatom meg, milyen memóriára van szükségem?
+Ez attól függően változik, hogy milyen eszközzel rendelkezik, ezt ellenőriznie kell. Ha a legmodernebb számítógéppel rendelkezik, akkor van esély rá, hogy az már a legújabb, DDR5 szabványt használó memóriát tartalmaz. Ha ettől kicsit régebbinek érzi, a legnagyobb valószínűséggel DDR4-re lesz szüksége. Ha számítógépe valamikor a világválság és dízelbotrány kirobbanása közben készült és fut rajta a Crysis, akkor DDR3-ra lesz szüksége. Ettől régebbi számítógépekhez is rendelkezünk DDR1 és DDR2 modulokkal, viszont mivel ezeket újonnan már nem gyártják, ezért készletünk korlátos és folyamatosan fogy!
+
+### Mi a különbség a RAM és memória között?
+A RAM rövidíti a Random Access Memory-t, azaz véletlen elérésű memóriát. A számítógépben az ezzel a szóval emlegetett memória leggyakrabban a DDR SDRAM memóriamodulokat jelenti. A memória szó alapján azt hihetné az ember, hogy végtelen ideig megőrzik tartalmukat, de ez nem így van: csak addig jegyzik meg az adatokat, amíg működés alatt van a számítógép (vagy folyékony nitrogénbe mártás esetén tovább).
+
+### A szomszéd Jancsi azt mondta, hogy ezt a számítógépet már le kellene adnom az elektronikai hulladékgyűjtőben és vennem helyette egy MacBook-ot. Igaza van?
+...
+
+DDR1/2/3/4/5, frekvencia, mennyiség, RGB(boolean) opciók
+
+### Vélemények:
+
+Andrea: Amióta kipróbáltam, mintha tényleg gyorsabb lenne a gépem működés közben, de a bekapcsolás ugyanannyi ideig tart.
+Nándor: Én eddig csak a lapozófájl növelés módszert ismertem, viszont aki kitalálta ezt oldalt, az egy géniusz volt, remélem írt belőle PhD-t.
+Ursula: Én lenni kanos lány, keresni forró fiút, írjon rám üzenetet most!
+Sándor: Nem is tudom, miért nem találtam rá korábban erre az oldalra, gépépítéskor boltból kellett vennem, de ha már akkor ismertem volna, akkor elittam volna az árát a haverokkal.
