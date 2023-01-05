@@ -1,9 +1,13 @@
 * {
-  margin: 0;
-  padding: 0;
   font-family: Roboto, sans-serif;
+}
+body {
+  background-image: url('../public/pic/bg.jpg');
+  
 }
 
 /* .MuiContainer-root {
+  margin: 0;
+  padding: 0;
   background-color: rgba(255, 255, 255, 0.9);
 } */
