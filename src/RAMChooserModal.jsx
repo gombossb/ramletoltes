@@ -2,13 +2,14 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import { Button, FormControl, Grid, InputLabel, MenuItem, Select, Typography } from '@mui/material';
+import DownloadProgress from './DownloadProgress';
 
 const modalBoxStyle = {
   position: 'absolute',
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: {'xs': '90%', 'md': 600},
+  width: {'xs': '90%', 'md': 700},
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
@@ -144,13 +145,7 @@ export default function RAMChooserModal(props){
               </FormControl>
             </Grid>
           </Grid>
-          <Button
-            variant="contained"
-            onClick={props.onClick}
-            color='success'
-          >
-            Letöltés
-          </Button>
+          <DownloadProgress disabled={!(type && frequency && size)} />
           <Button
             onClick={props.handleRamModalClose}
           >
