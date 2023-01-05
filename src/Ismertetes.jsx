@@ -8,7 +8,7 @@ const Ismertetes = () => {
         RAM Letöltés
       </Typography>
       <Box sx={{display: 'flex', justifyContent: 'center'}}>
-        <img src="/pic/pic1.jpg" alt="ram" style={{height: '14em', margin: '.5em'}} />
+        <img src="./pic/pic1.jpg" alt="ram" style={{height: '14em', margin: '.5em'}} />
       </Box>
 
       <Paper square={true} elevation={0} sx={{padding: '.5em'}}>
