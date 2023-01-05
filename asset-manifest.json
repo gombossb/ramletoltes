@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ramletoltes/static/css/main.7de60fc2.css",
-    "main.js": "/ramletoltes/static/js/main.affe3f67.js",
+    "main.js": "/ramletoltes/static/js/main.f8cb2b87.js",
     "static/media/bg.jpg": "/ramletoltes/static/media/bg.e350bbbeea36aaa25022.jpg",
     "static/media/logo.svg": "/ramletoltes/static/media/logo.3a45d163a316c73f1119b219bcfa3ffa.svg",
     "index.html": "/ramletoltes/index.html",
     "main.7de60fc2.css.map": "/ramletoltes/static/css/main.7de60fc2.css.map",
-    "main.affe3f67.js.map": "/ramletoltes/static/js/main.affe3f67.js.map"
+    "main.f8cb2b87.js.map": "/ramletoltes/static/js/main.f8cb2b87.js.map"
   },
   "entrypoints": [
     "static/css/main.7de60fc2.css",
-    "static/js/main.affe3f67.js"
+    "static/js/main.f8cb2b87.js"
   ]
 }
