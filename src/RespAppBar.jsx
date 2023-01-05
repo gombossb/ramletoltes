@@ -29,12 +29,12 @@ function RespAppBar() {
   };
   const scrollToId = (id) => {
     const elem = document.querySelector(`#${id}`);
-    elem.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    elem.scrollIntoView(true/*{behavior: 'smooth'} why isn't this working on phone??????*/);
   };
 
   return (
     <AppBar position="static" sx={{top: 0}}>
-      <Container hhhh={1/*maxWidth="xl"*/}>
+      <Container>
         <Toolbar disableGutters>
           <RAMIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, widthh: '1.5em', heightt: '1.5em' }}/>
           <Typography
@@ -83,7 +83,7 @@ function RespAppBar() {
               }}
             >
               {sections.map((section) => (
-                <MenuItem key={section.id} onClick={() => {handleCloseNavMenu(); scrollToId(section.id)}}>
+                <MenuItem key={section.id} onClick={() => {scrollToId(section.id); handleCloseNavMenu();}}>
                   <Typography textAlign="center">{section.label}</Typography>
                 </MenuItem>
               ))}

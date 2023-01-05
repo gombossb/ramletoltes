@@ -23,7 +23,7 @@ DDR1/2/3/4/5, frekvencia, mennyiség, RGB(boolean) opciók
 
 ### Vélemények:
 
-Andrea: Amióta kipróbáltam, mintha tényleg gyorsabb lenne a gépem működés közben, de a bekapcsolás ugyanannyi ideig tart.
-Nándor: Én eddig csak a lapozófájl növelés módszert ismertem, viszont aki kitalálta ezt oldalt, az egy géniusz volt, remélem írt belőle PhD-t.
+Anita: Amióta kipróbáltam, mintha tényleg gyorsabb lenne a gépem működés közben, de a bekapcsolás ugyanannyi ideig tart.
+Nikolasz: Én eddig csak a lapozófájl növelés módszert ismertem, viszont aki kitalálta ezt oldalt, az egy géniusz volt, remélem írt belőle PhD-t.
 Ursula: Én lenni kanos lány, keresni forró fiút, írjon rám üzenetet most!
 Sándor: Nem is tudom, miért nem találtam rá korábban erre az oldalra, gépépítéskor boltból kellett vennem, de ha már akkor ismertem volna, akkor elittam volna az árát a haverokkal.
