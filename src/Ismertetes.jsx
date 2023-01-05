@@ -4,7 +4,7 @@ import { Box } from "@mui/system";
 const Ismertetes = () => {
   return (
     <div id="ismertetes">
-      <Typography variant="h2" component="h1" textAlign='center' marginTop={3} fontWeight={400}>
+      <Typography variant="h2" component="h1" textAlign='center' paddingTop='2rem' fontWeight={400}>
         RAM Letöltés
       </Typography>
       <Box sx={{display: 'flex', justifyContent: 'center'}}>

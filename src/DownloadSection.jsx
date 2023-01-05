@@ -5,9 +5,10 @@ const DownloadSection = (props) => {
   return (
     <div id={(props.first) ? 'letoltes' : 'letoltes2'}>
       <Box sx={{display: 'flex', justifyContent: 'center', paddingY: '.5em'}}>
-        <DownloadButton />
+        <DownloadButton onClick={props.onClick} />
       </Box>
     </div>
   );
 }
+
 export default DownloadSection;

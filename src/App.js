@@ -6,6 +6,7 @@ import Ismertetes from './Ismertetes';
 import DownloadSection from './DownloadSection';
 import GYIK from './GYIK';
 import Velemenyek from './Velemenyek';
+import RAMChooserModal from './RAMChooserModal';
 
 const theme = createTheme({
   palette: {
@@ -14,24 +15,37 @@ const theme = createTheme({
     },
     success: {
       main: '#60d621',
-      contrastText: '#000'
+      contrastText: '#fff'
     }
   }
 });
 
 export default function App(){
+  const [ramModalOpen, setRamModalOpen] = React.useState(false);
+  const handleRamModalOpen = () => setRamModalOpen(true);
+  const handleRamModalClose = () => setRamModalOpen(false);
+
   return (
     <div className='App'>
       <ThemeProvider theme={theme}>
         <CssBaseline>
           <RespAppBar />
-          <Container sx={{backgroundColor: 'rgba(255, 255, 255, .95)'}}>
+          <Container sx={{backgroundColor: 'rgba(255, 255, 255, .95)', marginTop: '3.5rem', zIndex: -2}}>
             <Container sx={{backgroundColor: '#fff'}}>
               <Ismertetes />
-              <DownloadSection first={true} />
+              <DownloadSection
+                first={true}
+                onClick={handleRamModalOpen}
+              />
               <GYIK />
-              <DownloadSection />
+              <DownloadSection
+                onClick={handleRamModalOpen}
+              />
               <Velemenyek />
+              <RAMChooserModal
+                ramModalOpen={ramModalOpen}
+                handleRamModalClose={handleRamModalClose}
+              />
             </Container>
           </Container>
         </CssBaseline>

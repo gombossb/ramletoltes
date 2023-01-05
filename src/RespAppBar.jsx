@@ -33,7 +33,7 @@ function RespAppBar() {
   };
 
   return (
-    <AppBar position="static" sx={{top: 0}}>
+    <AppBar position="fixed" sx={{top: 0}}>
       <Container>
         <Toolbar disableGutters>
           <RAMIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, widthh: '1.5em', heightt: '1.5em' }}/>
@@ -125,4 +125,5 @@ function RespAppBar() {
     </AppBar>
   );
 }
+
 export default RespAppBar;

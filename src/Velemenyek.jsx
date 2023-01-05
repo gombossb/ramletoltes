@@ -12,18 +12,18 @@ const feedbacks = [
   },
   {
     name: 'Ursula',
-    feedback: 'Én lenni kanos lány, keresni forró fiút, írjon rám üzenetet most!'
+    feedback: 'Én lenni kanos lány, keresni forró fiút, írjon rám üzenet most!'
   },
   {
     name: 'Sándor',
     feedback: 'Nem is tudom, miért nem találtam rá korábban erre az oldalra, gépépítéskor boltból kellett vennem, de ha már akkor ismertem volna, akkor elittam volna az árát a haverokkal.'
   }
-]
+];
 
 const Velemenyek = () => {
   return (
     <div id="velemenyek">
-			<Box marginY='.5em'>
+			<Box marginY='.5em' paddingBottom='2rem'>
 				<Typography variant="h4" component="h4" fontWeight={600}>Vélemények</Typography>
 				{feedbacks.map(fb => (
 					<Box key={fb.name}>
@@ -44,4 +44,5 @@ const Velemenyek = () => {
 	</div>
   )
 }
+
 export default Velemenyek;

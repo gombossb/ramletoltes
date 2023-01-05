@@ -16,9 +16,9 @@ const questions = [
 	},
 	{
 		'question': 'A szomszéd Jóska azt mondta, hogy ezt a számítógépet már le kellene adnom az elektronikai hulladékgyűjtőbe és vennem helyette egy MacBook-ot. Igaza van?',
-		'answer': 'TODO vicces valasz'
+		'answer': 'Ha már sikerült ezt az oldalt megnyitnia, az azt jelenti, hogy számítógépe több számítási teljesítménnyel rendelkezik, mint amivel a holdraszállást levezényelték, és egy kis plusz teljesítménnyel csodákra lehet képes.'
 	}
-]
+];
 
 const GYIK = () => {
 	return (
@@ -43,4 +43,5 @@ const GYIK = () => {
 	</div>
 	);
 }
+
 export default GYIK;
